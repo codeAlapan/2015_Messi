@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+/* .poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #ab8f97;
+  display: flex;
+}
+
+#nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+  /* background-color: red; */
+  left: 8%;
+  top: 5%;
+}
+
+#nav > img {
+  height: 70px;
+}
+
+#nav > h5 {
+  font-size: 85%;
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+    color: white;
+}
+#part1 {
+  height: 100%;
+  width: 26%;
+  /* background-color: red; */
+}
+#part2 {
+  height: 100%;
+  width: 67%;
+  background-color: rgb(82, 82, 190);
+  background-image: url(2015_messi.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #ab8f973b;
+}
+#part3 {
+  height: 100%;
+  width: 7%;
+  /* background-color: greenyellow; */
+}
+#text-div {
+  /* height: 300px; */
+  position: absolute;
+  width: 400px;
+  /* background-color: red; */
+  left: 7%;
+  top: 60%;
+  transform: translate(0, -50%);
+}
+#text-div > h1 {
+  font-size: 95px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 78px;
+  letter-spacing: 5.5px;
+  color: white;
+}
+#small-img {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0, -50%);
+  background-image: url(MSN.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: red;
+}
+#overlay-in {
+  height: 100%;
+  width: 100%;
+  background-color: #ab8f973b;
+}
+
+#vertical-text {
+  position: absolute;
+  right: -46%;
+  transform-origin: 0% 0%;
+  transform: rotate(90deg);
+  /* width: 100%; */
+  /* background-color: red; */
+  z-index: 5;
+  top: 2.35%;
+}
+#vertical-text > h1 {
+  font-size: 70px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  letter-spacing: 28px;
+  /* transform: rotate(90deg); */
+}
